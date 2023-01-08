@@ -12,8 +12,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Overview
 
 ### Screenshot
-
+#### Desktop-View
 ![CHEESE!](screenshot/desktop-view.png)
+#### Mobile-View
 ![CHEESE!](screenshot/mobile-view.png)
 
 ### Built with

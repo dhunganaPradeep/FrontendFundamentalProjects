@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" alt=" Image by logturnal on Freepik " width="125px"></a>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="hidden">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="list.html">List Item</a></li>
+              </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <a href="account.html"><img src="images/user.png" width="30px" height="30px"></a>
+          </div>
+    </div>
+
+    <!-- Cart items details -->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/book-1.jpg">
+                        <div>
+                            <p>The God Equation</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/book-2.jpg">
+                        <div>
+                            <p>Chemistry</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/book-3.jpg">
+                        <div>
+                            <p>Mathematics</p>
+                            <small>Price: $50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$150.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$35.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$185.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-column2">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                    <div class="search-box">
+                        <input type="text" placeholder="Search">
+                        <button><i class="fa fa-search"></i></button>
+                      </div>
+                </div>
+                <div class="footer-column3">
+                    <h3>Product</h3>
+                    <ul>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+                <div class="footer-column4">
+                    <h3>Company</h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">2023 Brand, inc | Privacy | Terms | Sitemap</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnNTrade</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <a href="index.html"><img src="images/logo.png" alt=" Image by logturnal on Freepik " width="125px"></a>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="hidden">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav>
+              <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="list.html">List Item</a></li>
+              </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <a href="account.html"><img src="images/user.png" width="30px" height="30px"></a>
+          </div>
+        <section class="list-item">
+          <div class="container">
+            <h2>List Item</h2>
+            <form id="addItemForm">
+              <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category" name="category">
+                  <option value="electronics">Electronics</option>
+                  <option value="clothing">Clothing</option>
+                  <option value="books">Books</option>
+                  <!-- Add more categories as needed -->
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="image" required>Upload Image:</label>
+                <input type="file" id="image" name="image" accept="image/*" />
+              </div>
+              <div class="form-group">
+                <label for="description" required>Description:</label>
+                <textarea
+                  id="description"
+                  name="description"
+                  rows="4"
+                  cols="50"
+                  placeholder="Enter item description"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <label for="price">Price:</label>
+                <input
+                  type="number"
+                  id="price"
+                  name="price"
+                  placeholder="Enter item price"
+                  step="0.01"
+                />
+              </div>
+              <div class="form-group">
+                <label for="contact">Contact Details:</label>
+                <input
+                  type="text"
+                  id="contact"
+                  name="contact"
+                  placeholder="Enter contact information"
+                />
+              </div>
+              <button type="submit" class="btn">Add Item</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-column2">
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="search-box">
+              <input type="text" placeholder="Search" />
+              <button><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+          <div class="footer-column3">
+            <h3>Product</h3>
+            <ul>
+              <li>Features</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+          <div class="footer-column4">
+            <h3>Company</h3>
+            <ul>
+              <li>About Us</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">2023 Brand, inc | Privacy | Terms | Sitemap</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+- Visibility of System Status
+    
+    - The navigation menu (hamburger menu) icon is hidden by default but becomes visible on smaller screens, indicating its functionality when the menu is hidden. 
+
+- Match Between System and the Real World
+    
+    - Use of common icons like the cart and user account icons to easily identify what each icon refers to.
+
+- User Control and Freedom
+    
+    - The hamburger menu allows users to control navigation by revealing or hiding the menu on smaller screens like mobile and tablet.
+
+- Consistency and Standards
+    
+    - The design and layout of navigation elements appear consistent and aligned with standard practices.
+
+- Error Prevention
+    
+    - Since the code lacks a verification of the data for login system and user input forms which can be achieved only using JavaScript, there are no opportunities for error prevention mechanisms.
+
+- Recognition Rather than Recall
+    
+    - Labels for navigation links (e.g., "Home," "Products," "List Item") make it easy for users to recognize and understand their purpose without requiring recall.
+
+- Flexibility and Efficiency of Use
+    
+    - The design appears straightforward and suitable for various screen sizes.
+
+- Aesthetic and Minimalist Design
+    
+    - The design is clean and minimalist and not overly cluttered, promoting a pleasant user experience.
+
+- Help Users Recognize, Diagnose, and Recover from Errors
+    
+    - Error messages and recovery steps are not applicable to this code as it lacks a verification and validation for login system or user input forms which can be achieved through JavaScript or other language.
+
+- Help and Documentation
+    
+    - This is simple HTML5 and CSS3 website so there is no explicit help or documentation section in the code, this may not be necessary.
+
+Sections that had been added :
+    1) Carts section
+        - Added carts sections so that user can view what's been in the cart and see the price also.
+    2) Product_details Sections
+        - Can view the details of the product very throughly and find more about the product.

@@ -2,4 +2,4 @@
 A repository for Frontend Projects
 
 # Author:
-Pradip Dhungana
+Pradip Dhungana[dhunganapradip.com.np]

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>FURRYFriends</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Image by logturnal on Freepik" width="125px"></a>
+      </div>
+      <input type="checkbox" id="menu-toggle" class="hidden">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="browse.html">Browse</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <a href="chat.html"><img src="images/chat.png" width="30px" height="30px"></a>
+      <a href="account.html"><img src="images/user.png" width="30px" height="30px"></a>
+    </div>
+  </div>
+ <!-- Account creation form -->
+ <div class="account-form">
+    <h2>Create an Account</h2>
+    <form action="registered.html" method="POST">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+  <!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured-pets">Featured Pets</a></li>
+            <li><a href="#adopt">Why Adopt</a></li>
+            <li><a href="#find-pet">Find a Pet</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <p>Email: contact@furryfriends.com</p>
+          <p>Phone: 123-456-7890</p>
+          <p>Address: 1234 Pet Street, Furryland, USA</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 FurryFriends | Designed by Furry</p>
+      </div>
+    </div>
+  </footer>
+  
+  </body>
+  </html>

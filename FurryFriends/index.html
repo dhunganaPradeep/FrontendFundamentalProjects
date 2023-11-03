@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>FURRYFriends</title>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.png" alt="Image by logturnal on Freepik" width="125px"></a>
+      </div>
+      <input type="checkbox" id="menu-toggle" class="hidden">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <nav>
+        <ul id="MenuItems">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="browse.html">Browse</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <a href="chat.html"><img src="images/chat.png" width="30px" height="30px"></a>
+      <a href="account.html"><img src="images/user.png" width="30px" height="30px"></a>
+    </div>
+  </div>
+
+ <!-- Home Page Section -->
+ <section class="home-section" id="home">
+  <div class="container">
+    <div class="homepage">
+      <div class="welcome-box">
+        <h1>Welcome to FurryFriends!</h1>
+        <p>Find your perfect pet companion</p>
+        <div class="buttons">
+          <a href="about.html" class="btn learn-more">Learn More</a>
+          <a href="#find-pet" class="btn get-started">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Featured Pets Section -->
+  <section class="featured-pets-section" id="featured-pets">
+    <div class="container">
+      <div class="featured-pets">
+        <div class="featured-pets-content">
+          <div class="featured-pets-text">
+            <h2>Featured Pets</h2>
+            <p>Check out these adorable pets available for adoption!</p>
+          </div>
+          <div class="pet-profiles">
+            <div class="pet-profile">
+              <div class="pet-box">
+                <div class="pet-photo">
+                  <img src="images/reteriever.jpg" alt="Pet 1">
+                </div>
+                <div class="pet-details">
+                  <h3>Golden Retriever</h3>
+                  <p>Male, 2 years old</p>
+                </div>
+              </div>
+            </div>
+            <div class="pet-profile">
+              <div class="pet-box">
+                <div class="pet-photo">
+                  <img src="images/labrador.jpg" alt="Pet 2">
+                </div>
+                <div class="pet-details">
+                  <h3>Labrador</h3>
+                  <p>Female, 3 years old</p>
+                </div>
+              </div>
+            </div>
+            <div class="pet-profile">
+              <div class="pet-box">
+                <div class="pet-photo">
+                  <img src="images/chihuahua.jpg" alt="Pet 2">
+                </div>
+                <div class="pet-details">
+                  <h3>Chihuahua</h3>
+                  <p>Male, 3 years old</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="browse.html" class="btn browse-all">Browse All</a>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- Why Adopt us -->
+  <section class="why-adopt-section" id="adopt">
+    <div class="container">
+      <div class="why-adopt">
+        <h2>Why Adopt a Pet?</h2>
+        <p>Adopting a pet has many benefits</p>
+      </div>
+    </div>
+    <div class="benefit-boxes">
+      <div class="benefit-box">
+        <div class="benefit-image">
+          <img src="images/ulove.png" alt="Image 1">
+        </div>
+        <div class="benefit-content">
+          <h3>Unconditional Love</h3>
+          <p>Pets provide unconditional love and companionship.</p>
+        </div>
+      </div>
+  
+      <div class="benefit-box">
+        <div class="benefit-image">
+          <img src="images/savealife.png" alt="Image 2">
+        </div>
+        <div class="benefit-content">
+          <h3>Save a Life</h3>
+          <p>When you adopt a pet, you're giving them a second chance to live a happy life.</p>
+        </div>
+      </div>
+  
+      <div class="benefit-box">
+        <div class="benefit-image">
+          <img src="images/reduce.png" alt="Image 3">
+        </div>
+        <div class="benefit-content">
+          <h3>Reduce Stress</h3>
+          <p>Spending time with pets has been shown to reduce mental health problems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIND a PET -->
+  <section class="find-pet-section" id="find-pet">
+    <div class="container">
+      <h2>Find your perfect pet</h2>
+      <h3>Pet Type</h3>
+      <div class="pet-types">
+        <button class="pet-type-button" data-type="Dog">Dog</button>
+        <button class="pet-type-button" data-type="Cat">Cat</button>
+        <button class="pet-type-button" data-type="Rabbit">Rabbit</button>
+        <button class="pet-type-button" data-type="Reptiles">Reptiles</button>
+        <button class="pet-type-button" data-type="Birds">Birds</button>
+      </div>
+      <p>Select the type of pet you're looking for</p>
+      <h3>Location</h3>
+      <div class="location-search">
+        <input type="text" placeholder="Enter location">
+      </div>
+      <p>Enter your location to find pets near you</p>
+      <div class="buttons">
+        <button class="reset-button">Reset</button>
+        <button class="search-button">Search</button>
+      </div>
+    </div>
+</section>
+
+<!-- Subscribe to Newsletter Section -->
+
+<section class="subscribe-newsletter" id="newsletter">
+  <h3>Subscribe to FurryFriends email Newsletter</h3>
+  <form class="newsletter-form" id="newsletterForm">
+    <input type="text" placeholder="First Name" required>
+    <input type="text" placeholder="Last Name" required>
+    <input type="email" placeholder="Email" required>
+    <button type="reset" class="subscribe-button">Subscribe</button>
+  </form>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#featured-pets">Featured Pets</a></li>
+          <li><a href="#adopt">Why Adopt</a></li>
+          <li><a href="#find-pet">Find a Pet</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@furryfriends.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 1234 Pet Street, Furryland, USA</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 FurryFriends | Designed by Furry</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
